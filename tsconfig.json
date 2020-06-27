@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "allowJs": true,
+    "outDir": "./out"
+  },
+  "include": [
+    "./session1/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
