@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "module": "commonjs",
     "allowJs": true,
     "outDir": "./out",
-    "target": "ES2020"
+    "target": "ES2020",
+    "types": [
+      "node",
+      "mocha",
+      "chai"
+    ]
   },
   "include": [
-    "./session1/**/*"
+    "./session1/**/*",
+    "./tests/**/*"
   ],
   "exclude": [
     "node_modules"
