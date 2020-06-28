@@ -3,21 +3,16 @@
 
 ## Session 1:
 ### Fundamentals
-  - Hello, JavaScript!
-  - Set-up TypeScript
+  - Hello, JavaScript & TypeScript!
   - Code structure
-  - Comments
   - Variables
   - Data types
   - Type conversions
   - Operators, maths
-  - Comparisons
-  - Conditionals
-  - Logical operators
-  - Nulish coalescing operator
+  - Comparisons, Conditionals
   - Loops
-  - Switch
   - Functions
+  - Nulish coalescing operator
   - Error handling (try..catch)
 ### Coding challenges
 
@@ -79,11 +74,11 @@ Practice exercise: Draw Shapes
 
 
 ## Set up
-- Install Node.js: 
+- Install Node.js:
   - One of LTS or latest: https://nodejs.org/en/
   - If you need multiple versions: https://github.com/jasongin/nvs
 
 ## How to use this
 
-Checkout the repo  
-Run `npm i`  
+Checkout the repo
+Run `npm i`
