@@ -12,6 +12,7 @@
   },
   "include": [
     "./session1/**/*",
+    "./session2/**/*",
     "./tests/**/*"
   ],
   "exclude": [

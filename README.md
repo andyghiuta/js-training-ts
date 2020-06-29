@@ -1,5 +1,7 @@
 # Introduction to JavaScript/TypeScript
 > Details about JavaScript language spiced up with TypeScript where it applies.
+>
+> Source: https://javascript.info/
 
 ## Session 1:
 ### Fundamentals
