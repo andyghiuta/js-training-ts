@@ -106,7 +106,7 @@ console.log(user7.age); // still 30 in the original object
 // Alternatives:
 const clone2 = Object.assign({}, user7);
 const clone3 = JSON.parse(JSON.stringify(user7));
-const clone4 = { ...user7 }; // destructuring, we'll talk more about it later
+const clone4 = { ...user7 }; // destructuring with spread, we'll talk more about it later
 // various libs have "clone" functions that account for edge cases: lodash, ramda
 
 // ## Garbage collection

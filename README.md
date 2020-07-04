@@ -63,7 +63,6 @@
 
 ## Session 5:
 ### Prototypes, inheritance
-### Sessiones
 ### Other
   - Modules (Introduction, Import/Export, Dynamic)
   - Coding style
