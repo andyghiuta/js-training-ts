@@ -10,6 +10,7 @@
     "test:s2_2": "mocha -r ts-node/register tests/session2/2.test.ts",
     "test:s2_3": "mocha -r ts-node/register tests/session2/3.test.ts",
     "test:s3_1": "mocha -r ts-node/register tests/session3/1.test.ts",
+    "test:s3_2": "mocha -r ts-node/register tests/session3/2.test.ts",
     "tsc:build": "tsc",
     "tsc:watch": "tsc -w"
   },
