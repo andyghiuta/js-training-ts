@@ -9,6 +9,7 @@
     "test:s2_1": "mocha -r ts-node/register tests/session2/1.test.ts",
     "test:s2_2": "mocha -r ts-node/register tests/session2/2.test.ts",
     "test:s2_3": "mocha -r ts-node/register tests/session2/3.test.ts",
+    "test:s3_1": "mocha -r ts-node/register tests/session3/1.test.ts",
     "tsc:build": "tsc",
     "tsc:watch": "tsc -w"
   },
@@ -22,12 +23,14 @@
     "eslint-config-airbnb-typescript": "^8.0.2",
     "eslint-plugin-import": "^2.22.0",
     "mocha": "^8.0.1",
+    "sinon": "^9.0.2",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5"
   },
   "dependencies": {
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
-    "@types/node": "^14.0.14"
+    "@types/node": "^14.0.14",
+    "@types/sinon": "^9.0.4"
   }
 }
