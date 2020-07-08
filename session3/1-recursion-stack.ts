@@ -8,7 +8,7 @@ function pow(x: number, n: number) {
   let result = 1;
 
   // multiply result by x n times in the loop
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < n; i += 1) {
     result *= x;
   }
 
@@ -23,9 +23,8 @@ function powR(x: number, n: number): number {
   console.trace();
   if (n === 1) {
     return x; // exit condition
-  } else {
-    return x * powR(x, n - 1); // next iteration
   }
+  return x * powR(x, n - 1); // next iteration
 }
 
 console.log(powR(2, 3)); // 8
