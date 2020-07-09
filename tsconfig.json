@@ -15,6 +15,7 @@
     "./session1/**/*",
     "./session2/**/*",
     "./session3/**/*",
+    "./session4/**/*",
     "./tests/**/*"
   ],
   "exclude": [
