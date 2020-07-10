@@ -52,12 +52,6 @@ promiseExample();
 promiseExample();
 promiseExample();
 
-function delay(sec: number) {
-  return new Promise((resolve) => {
-    setTimeout(() => resolve(1), sec * 1000);
-  });
-}
-
 function promiseChaining() {
   console.log('Chaining');
   const promise = new Promise(((resolve) => {
@@ -109,10 +103,3 @@ function promiseNotChaining() {
 }
 
 promiseNotChaining();
-
-// Real example (browser), fetching details from github
-fetch('https://api.github.com/users/andyghiuta')
-  .then((response) => response.json())
-  .then((githubUser) => {
-    console.log(githubUser);
-  });
