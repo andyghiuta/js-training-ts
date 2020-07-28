@@ -81,7 +81,7 @@ function promiseChaining() {
 promiseChaining();
 
 function promiseNotChaining() {
-  console.log('Chaining');
+  console.log('Not Chaining');
   const promise = new Promise(((resolve) => {
     setTimeout(() => resolve(1), 1000); // (*)
   }));
